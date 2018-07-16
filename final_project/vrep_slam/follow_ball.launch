@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <!--node pkg="visual_servo" type="visual_servo.py" name="visual_servo" output="screen"/-->
+
+  <node pkg="visual_servo" type="visual_servo.py" name="visual_servo" output="screen">
+    <remap from="/vrep/cmd_vel" to="/vrep_ros_interface/key_vel"/>
+  </node>
+
+</launch>
+  

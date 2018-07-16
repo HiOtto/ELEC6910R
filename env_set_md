@@ -1,0 +1,11 @@
+export VREP_ROOT=~/RobSoftware/V-REP_PRO_EDU_V3_5_0_Linux
+source /opt/ros/kinetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export ROS_WORKSPACE=~/catkin_ws
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/vrep_ros_bridge
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/vrep_slam
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/RobSoftware/teleop_tools
+#export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/vrep_slam
+#export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/RobSoftware/telekyb/acksstacks
+#export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`:`pwd`/telekyb/st
